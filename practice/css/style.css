@@ -1,0 +1,257 @@
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: coral;
+  font-family: verdana, tahoma, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: .7;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: arial,helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+body h2, body h3, body h4, body h5, body h6 {
+  font-family: verdana, tahoma, sans-serif;
+  text-align:center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+a:hover {
+  color: coral;
+}
+
+a:active {
+  color: coral;
+}
+
+#navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+}
+
+#navbar ul {
+  padding: 0;
+}
+
+#navbar li {
+  display: inline;
+}
+
+li::-moz-selection {
+  color: gold;
+}
+
+li::selection {
+  color: gold;
+}
+
+#icon {
+  display: inline;
+float:right;
+}
+
+#navbar a {
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+#showcase0, #showcase1, #showcase2 {
+  background-position: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase0 {
+  background-image: url("C:/Users/User/Desktop/Web Design/practice/images/codes.jpg");
+  min-height: 200px;
+}
+
+#showcase0 h3 {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.6em;
+  padding-top: 40px;
+  font-weight:bold;
+}
+
+#showcase1 {
+  background-image: url("C:/Users/User/Desktop/Web Design/practice/images/codes.jpg");
+  min-height: 200px;
+}
+
+#showcase1 h3 {
+  color: #fff;
+  font-size: 40px;
+  padding: 40px;
+  font-weight:bold;
+}
+
+#showcase2 {
+  background-image: url("C:/Users/User/Desktop/Web Design/practice/images/logo.jpg");
+  min-height: 500px;
+}
+
+#showcase2 h3 {
+  color: coral;
+  font-size: 38px;
+  padding: 0px;
+}
+
+#main {
+  float: left;
+  width: 63%;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#main1 {
+  float: left;
+  width: 32%;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#main2 {
+  float: left;
+  width: 32%;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#main3 {
+  float: left;
+  width: 32%;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#mainC {
+  float: center;
+  width: 80%;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+#sidebar0, #sidebar1 {
+  padding: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  line-height: 2em;
+  border: 5px;
+  border-radius: 15px;
+}
+
+#sidebar0 {
+  float: right;
+  width: 32%;
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+  font-family: helvetica,tahoma,san-serif;
+}
+
+#sidebar1 {
+  float: right;
+  width: 30%;
+  background-color: #fff;
+  color: #333;
+  border-color: #333;
+  font-family: tahoma,helvetica, san-serif;
+}
+
+#sidebar2 {
+  float: left;
+  width: 70%;
+  background-color: #fff;
+  color: #333;
+  border-color: #333;
+  font-family: verdana,tahoma,san-serif;
+  
+  border: 5px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#sidebar3 {
+  float: center;
+  width: 80%;
+  background-color: #fff;
+  color: #333;
+  border-color: #333;
+  font-family: verdana,tahoma,san-serif;
+  border: 5px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.row > div {
+  margin: 30px;
+}
+
+#foot {
+  background-color: coral;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  font-weight:bold;
+}
+
+@media (max-width: 600px) {
+  #main {
+    width: 100%;
+    float: none;
+  }
+  #sidebar0 {
+    width: 100%;
+    float: none;
+  }
+  #sidebar1 {
+    width: 100%;
+    float: none;
+  }
+  #sidebar2 {
+    width: 100%;
+    float: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
